@@ -1,0 +1,65 @@
+body {
+  font-family: 'Hind Siliguri', 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  color: #333;
+}
+.hero {
+  min-height: 80vh;
+  /* background: linear-gradient(to right, #0f9d58, #34a853); */
+
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+.hero h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+.hero p {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+}
+.navbar .nav-link {
+  margin: 0 8px;
+  font-weight: 500;
+}
+.btn-warning, .btn-success {
+  border-radius: 30px;
+  font-weight: 600;
+  padding: 10px 25px;
+  transition: all 0.3s ease;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+.btn-warning:hover, .btn-success:hover {
+  transform: scale(1.05);
+}
+.carousel-inner img {
+  max-height: 80vh;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  bottom: 0;
+  top: 0;
+}
+
+.carousel-caption h1, 
+.carousel-caption p {
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px; 
+  height: 50px;
+  top: 50%;
+  color: white;
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1); 
+  width: 20px;
+  height: 20px;
+}
